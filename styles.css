@@ -1,0 +1,20 @@
+* {
+    border-color: rgb(185, 82, 82);
+    border-style: solid;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+}
+
+#container div {
+    flex-basis: 5%;
+    height: 20px;
+    background-color: rgb(182, 156, 206);
+}
+/*#container div:hover {
+    background-color: rgb(51, 151, 146);
+}*/
