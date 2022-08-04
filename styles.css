@@ -1,6 +1,12 @@
+body {
+    background-image: url(./Images/pexels-henry-&-co-1939485.jpg);
+    background-size: 100%;
+}
+
 #header {
     text-align: center;
     margin-bottom: 70px;
+    color: brown;
 }
 
 #container {
@@ -35,6 +41,18 @@ button {
     border-radius: 8px;
     border-style: groove;
 }
+
+#color {
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
+
+
 .something {
-color: rgb(216, 216, 216) 
+    color: rgb(255, 255, 255);
+    color: #0c9e92
 }
