@@ -12,7 +12,7 @@ function create(num = 16, color='black') {
     for (let i = 0; i < num*num; i++) {
         square = document.createElement('div');
         square.classList.add('hover');
-        measure = 400/num;
+        measure = 500/num;
         square.style.height = measure.toString()+'px';
         square.style.width = measure.toString()+'px';
         container.appendChild(square);

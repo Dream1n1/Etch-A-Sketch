@@ -1,21 +1,33 @@
+@font-face {
+    font-family: lobster;
+    src: url(./font/Lobster-Regular.ttf);
+  }
 body {
     background-image: url(./Images/pexels-henry-&-co-1939485.jpg);
     background-size: 100%;
 }
 
 #header {
+    font-family: lobster;
     text-align: center;
-    margin-bottom: 70px;
     color: brown;
+    font-size: 50px;
+    margin-bottom: 8%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
-    margin: auto;
+    width: 500px;
+    height: 500px;
     border: 1px solid rgb(201, 199, 199);
+    flex-shrink: 0;
 
 }
 
@@ -27,19 +39,24 @@ body {
 
 .btn-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 15px;
-    margin: 30px;
 }
 
 button {
-    color: rgb(10, 105, 73);
-    background-color: aquamarine;
-    padding: 10px 15px;
+    color: rgb(78, 10, 78);
+    background-color: rgb(243, 147, 147);
+    height: 70px;
+    width: 100px;
     font-size: 20px;
-    font-weight: bold;
-    border-radius: 8px;
+    font-family: 'Abel', sans-serif;
+    border-radius: 20px;
     border-style: groove;
+    border: 3px groove;
+}
+button:hover {
+    background-color: rgb(233, 198, 198);
 }
 
 #color {
@@ -47,12 +64,13 @@ button {
     border: 0;
     cursor: pointer;
     padding: 0;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 95px;
 }
 
-
-.something {
-    color: rgb(255, 255, 255);
-    color: #0c9e92
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
 }

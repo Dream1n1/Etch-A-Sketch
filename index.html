@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <title>Etch-A-Sketch</title>
 </head>
 <body>
     <h1 id="header">Etch-A-Sketch</h1>
-    <div class="btn-container">
-        <input id="color" type="color" value="#7FFFD4" id="color">
-        <button id="randomClr">Random colors<p style="margin: 0; font-size: 15px;">'w'</p></button>
-        <button id="reset">Reset<p style="margin: 0; font-size: 15px;">'r'</p></button>
-        <button id="eraser">Eraser<p style="margin: 0; font-size: 15px;">'e'</p></button>
-        <button id="clear">Clear<p style="margin: 0; font-size: 15px;">'c'</p></button>
-    </div>
-    <div id="container"></div>
+    <div id="content">
+        <div class="btn-container">
+            <input id="color" type="color" value="#bd6096" id="color">
+            <button id="randomClr">Random<p style="margin: 0; font-size: 15px;">'w'</p></button>
+            <button id="reset">Reset<p style="margin: 0; font-size: 15px;">'r'</p></button>
+            <button id="eraser">Eraser<p style="margin: 0; font-size: 15px;">'e'</p></button>
+            <button id="clear">Clear<p style="margin: 0; font-size: 15px;">'c'</p></button>
+        </div>
+        <div id="container"></div>
     </div>
 </body>
+<footer>Made with ❤️ by Hamza</footer>
 </html>
